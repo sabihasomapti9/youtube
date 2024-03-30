@@ -140,6 +140,12 @@ buttons.forEach(button => {
 
 
 
+const videoItems = document.querySelectorAll('.video-item');
+
+// Responsive behavior (optional)
+window.addEventListener('resize', () => {
+  // Adjust width of videos based on screen size here
+});
 
 
 
