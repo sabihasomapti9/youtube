@@ -370,12 +370,16 @@ button {
 
 
 
-
+.gih{
+  padding-top: 7px;
+  
+}
 
 .video-container {
   display: flex;
   flex-wrap: wrap; /* Wrap videos if they overflow the container */
   border-radius: 26px 26px 26px 26px;
+  padding-top: 11px;
 }
 .video-container video{
   border-radius: 27px 27px 27px 27px;
