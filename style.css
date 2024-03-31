@@ -91,7 +91,6 @@
 }
 .cu{
   display: flex;
-  flex-direction: row;
   padding-left: 8px;
 }
 .image-shh{
@@ -270,7 +269,7 @@ background-color: #B9E9FC;
 .button-container {
   flex-wrap: wrap; 
   justify-content: space-around; 
-  margin: 20px;
+  margin: 0px;
 }
 button {
   padding: 6px 2px;
@@ -384,21 +383,15 @@ button {
 .video-item {
   width: 370px;
   height: 210px;
-  margin: 1px; /* Add some margin between videos */
 }
 .video-item-1 {
   width: 370px;
   height: 210px;
-  margin: 10px; /* Add some margin between videos */
 }
 .video-item-2 {
   width: 370px;
   height: 210px;
-  margin: 10px; /* Add some margin between videos */
-}
-.video-item iframe {
-  width: 100%; /* Stretch iframe to fill the container */
-  height: 100%;
+  margin: 1px; /* Add some margin between videos */
 }
 .suur-im{
   width: 300px;
@@ -417,4 +410,40 @@ button {
 }
 .vi-innn{
   display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.video-container-3 {
+  display: flex;
+  flex-wrap: wrap; /* Wrap videos if they overflow the container */
+  border-radius: 26px 26px 26px 26px;
+  padding-top: 22px;
+}
+.video-container-3 video{
+  border-radius: 27px 27px 27px 27px;
+}
+.video-item-3 {
+  width: 370px;
+  height: 210px;
+  margin: 1px; /* Add some margin between videos */
+}
+.video-item-4 {
+  width: 370px;
+  height: 210px;
+  margin: 1px; /* Add some margin between videos */
+}
+.video-item-5 {
+  width: 370px;
+  height: 210px;
+  margin: 1px; /* Add some margin between videos */
 }
